@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/resort-last.svg" type="image/x-icon">
+    <title>Hotel</title>
+</head>
+<body>
+    <section class="bg-gray-200 flex">
+        <div class="flex flex-col w-full pl-8">
+
+                <header class="w-1/2 flex items-center justify-between pt-4">
+                    <div class="flex items-center pl-8">
+                        <img src="assets/logo.svg" alt="logo">
+                        <a href="#" class="pl-4 font-bold text-2xl text-gray-700">Hotels</a>
+                    </div>
+                    <nav class="flex space-x-16 w-1/2 pl-20">
+                        <a href="#" class="font-semibold text-gray-700 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-indigo-400 hover:text-indigo-400">About</a>
+                        <a href="#" class="font-semibold text-gray-700 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-indigo-400 hover:text-indigo-400">Blog</a>
+                        <a href="#" class="font-semibold text-gray-700 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-indigo-400 hover:text-indigo-400">Pricing</a>
+                        <a href="#" class="font-semibold text-gray-700 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-indigo-400 hover:text-indigo-400">Login</a>
+                    </nav>
+                </header>
+
+                <article class="max-w-lg flex flex-col mt-32 ml-6">
+                    <p class="text-5xl font-extrabold leading-none">Find Perfect Hotels <span class="text-blue-500">anywhere you go.</span></p>
+                    <p class="text-xl pt-6 text-gray-700 leading-loose max-w-md">
+                        We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.
+                    </p>
+                    <div class="max-w-sm flex justify-between items-end pt-8">
+                        <button class="text-base font-semibold bg-blue-400 transition duration-500 ease-in-out  hover:bg-blue-500 text-white py-4 px-12 rounded">Sign Up</button>
+                        <button class="text-base font-semibold bg-gray-400 transition duration-500 ease-in-out  hover:bg-gray-500 text-gray-700 py-4 px-8 mr-12 rounded">Search Hotels</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="w-3/5 flex flex-col">
+                <img src="assets/hotel.jpg" alt="image of hotel" style="background-size: cover; height: 40rem; width: 32rem;" class=" w-3/5 bg-cover">  
+            </div>
+    </section>
+
+    <section class="flex justify-center flex-wrap pt-56 pb-56">
+       <div class="max-w-xs text-center flex flex-col items-center">
+            <span>
+                <img src="assets/insurance.svg" alt="logo 1" class="pb-4">
+            </span>
+            <span class="text-xl text-gray-700 font-bold">Secure</span>
+            <p class="text-gray-600 font-semibold pt-3 pb-3">We strictly only deal with vendors that provide top notch security.</p>
+            <span class="flex inline-flex justify-center items-center">
+                <span class="font-bold text-blue-500 text-center">Learn More</span>
+                <img src="assets/arrow.svg" alt="arrow-left" class="pl-2">
+            </span>
+            
+       </div>
+       <div class="max-w-xs text-center flex flex-col items-center">
+            <span>
+                <img src="assets/headset.svg" alt="logo 2" class="pb-4">
+            </span>
+            <span class="text-xl text-gray-700 font-bold">24/7 Support</span>
+            <p class="text-gray-600 font-semibold pt-3 pb-3">Lorem ipsum donor amet siti ceali placeholder text.</p>
+            <span class="flex inline-flex justify-center items-center">
+                <span class="font-bold text-blue-500 text-center">Learn More</span>
+                <img src="assets/arrow.svg" alt="arrow-left" class="pl-2">
+            </span>
+            
+       </div>
+       <div class="max-w-xs text-center flex flex-col items-center pt-2">
+            <span>
+                <img src="assets/adjust.svg" alt="logo 3" class="pb-4">
+            </span>
+            <span class="text-xl text-gray-700 font-bold">Customizable</span>
+            <p class="text-gray-600 font-semibold pt-3 pb-3">Lorem ipsum donor amet siti ceali placeholder text.</p>
+            <span class="flex inline-flex justify-center items-center">
+                <span class="font-bold text-blue-500 text-center">Learn More</span>
+                <img src="assets/arrow.svg" alt="arrow-left" class="pl-2">
+            </span>
+            
+       </div>
+    </section>
+
+    <section>
+        <p class="text-5xl text-blue-500 font-extrabold pl-16 pb-8">Popular Hotels</p>
+        <div>
+            <div class="flex justify-center items-center flex-wrap">
+                <div class="bg-white max-w-sm border-1 shadow-xl m-4">
+                    <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80" alt="hotel" class="w-full h-64 rounded-t-lg" style="background-size: cover; background-position: center center; height: 300px;">
+                    <div class="flex justify-around">
+                        <p class="text-gray-700 font-bold text-2xl pt-8 pb-4">Soho Paradise</p>
+                        <span class="flex pt-3">
+                            <img src="assets/star.svg" alt="star">
+                            <p class="font-bold text-xl flex items-center pl-2">4.9</p>
+                        </span>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="assets/location (1).svg" alt="logo">
+                        <p class="font-bold pl-2 pr-20">Ibiza, Spain</p>
+                        <img src="assets/money.svg" alt="logo">
+                        <p class="font-bold pl-2">USD 50/Day</p>
+                    </div>
+                    <p class="leading-relaxed pt-4 pb-8 text-center">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="bg-blue-500  hover:bg-blue-600 w-full py-6 text-white font-bold text-xl rounded-b-lg">Book Now</button>
+                </div>
+
+                <div class="bg-white max-w-sm border-1 shadow-xl m-4">
+                    <img src="https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80" alt="hotel" class="w-full h-64 rounded-t-lg" style="background-size: cover; background-position: center center; height: 300px;">
+                    <div class="flex justify-around">
+                        <p class="text-gray-700 font-bold text-2xl pt-8 pb-4">Hotel Baja</p>
+                        <span class="flex pt-3">
+                            <img src="assets/star.svg" alt="star">
+                            <p class="font-bold text-xl flex items-center pl-2">5.0</p>
+                        </span>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="assets/location (1).svg" alt="logo">
+                        <p class="font-bold pl-2 pr-20">Palo Alto, CA</p>
+                        <img src="assets/money.svg" alt="logo">
+                        <p class="font-bold pl-2">USD 19/Day</p>
+                    </div>
+                    <p class="leading-relaxed pt-4 pb-8 text-center">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="bg-blue-500  hover:bg-blue-600 w-full py-6 text-white font-bold text-xl rounded-b-lg">Book Now</button>
+                </div>
+
+                <div class="bg-white max-w-sm border-1 shadow-xl m-4">
+                    <img src="https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80" alt="hotel" class="w-full h-64 rounded-t-lg" style="background-size: cover; background-position: center center; height: 300px;">
+                    <div class="flex justify-around">
+                        <p class="text-gray-700 font-bold text-2xl pt-8 pb-4">Hudak Homes</p>
+                        <span class="flex pt-3">
+                            <img src="assets/star.svg" alt="star">
+                            <p class="font-bold text-xl flex items-center pl-2">4.5</p>
+                        </span>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="assets/location (1).svg" alt="logo">
+                        <p class="font-bold pl-2 pr-20">Arizona, RAK</p>
+                        <img src="assets/money.svg" alt="logo">
+                        <p class="font-bold pl-2">USD 99/Day</p>
+                    </div>
+                    <p class="leading-relaxed pt-4 pb-8 text-center">Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="bg-blue-500  hover:bg-blue-600 w-full py-6 text-white font-bold text-xl rounded-b-lg">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex justify-between items-center flex-wrap max-w-screen-xl py-32">
+            <div class="max-w-md pl-16">
+                <p class="text-5xl font-extrabold pb-4">Trending Tours</p>
+                <p class="text-gray-600 text-lg pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
+                <a class="flex items-center text-xl text-blue-500 font-bold border-b-4 border-transparent transition duration-500 ease-in-out hover:border-blue-400 w-1/2 text-center cursor-pointer">
+                    View All Tours
+                    <img src="assets/arrow.svg" alt="arrow" class="pt-1 pl-2">
+                </a>
+            </div>
+           
+            <div class="max-w-xs">
+                <img src="https://images.unsplash.com/photo-1553194587-b010d08c6c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80" alt="img" class="w-full rounded" style="background-size: cover; background-position: center center; height: 350px;">
+                <span class="flex justify-between py-3">
+                    <p class="text-xl text-blue-500 font-bold">Beachfront</p>
+                    <p class="text-xl font-bold">$99 <span class="text-lg text-gray-700">per day</span></p>
+                </span>
+                <div class="max-w-sm">
+                    <p class="text-2xl text-gray-700 font-medium">A Trip to the Bahamas and the Carribean Ocean</p>
+                    <div class="flex justify-between pt-8">
+                        <span class="flex items-center">
+                            <img src="assets/graph.svg" alt="logo">
+                            <p class="font-bold text-sm uppercase pl-2 ">Trending</p>
+                        </span>
+                        <span class="flex items-center">
+                            <img src="assets/clock.svg" alt="logo">
+                            <p class="font-bold text-sm uppercase pl-2 ">7 days tour</p>
+                        </span>
+                        <span class="flex items-center">
+                            <img src="assets/loc.svg" alt="logo">
+                            <p class="font-bold text-sm uppercase pl-2 ">africa</p>
+                        </span>
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold rounded w-full py-3 mt-8">Book Now</button>
+                </div>    
+            </div>
+
+            <div class="max-w-xs">
+                <img src="https://images.unsplash.com/photo-1584200186925-87fa8f93be9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80" alt="img" class="w-full rounded" style="background-size: cover; background-position: center center; height: 350px;">
+                <span class="flex justify-between py-3">
+                    <p class="text-xl text-blue-500 font-bold">Cruise</p>
+                    <p class="text-xl font-bold">$196 <span class="text-lg text-gray-700">per day</span></p>
+                </span>
+                <div class="max-w-sm">
+                    <p class="text-2xl text-gray-700 font-medium">Cruise to the Mariana Trench and the Phillipines</p>
+                    <div class="flex justify-between pt-8">
+                        <span class="flex items-center">
+                            <img src="assets/graph.svg" alt="logo">
+                            <p class="font-bold text-sm uppercase pl-2 ">Trending</p>
+                        </span>
+                        <span class="flex items-center">
+                            <img src="assets/clock.svg" alt="logo">
+                            <p class="font-bold text-sm uppercase pl-2 ">5 days tour</p>
+                        </span>
+                        <span class="flex items-center">
+                            <img src="assets/loc.svg" alt="logo">
+                            <p class="font-bold text-sm uppercase pl-2 ">africa</p>
+                        </span>
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold rounded w-full py-3 mt-8">Book Now</button>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex justify-between m-16 py-20">
+            <div class="max-w-4xl">
+                <img src="https://images.unsplash.com/photo-1582564286939-400a311013a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80" alt="image" class="rounded" style="background-size: cover; height: 600px; width: 500px;">
+            </div>
+
+            <div class="max-w-2xl">
+                <p class="max-w-lg text-5xl text-blue-500 font-extrabold leading-none pb-6">We have the best service.</p>
+                <p class="text-xl text-gray-600 pb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="max-w-md">
+                    <div class="flex flex-wrap">
+                        <div class="font-semibold text-blue-500 text-3xl">
+                            <p>192</p>
+                            <p class="text-gray-700">Countries</p>
+                        </div>
+                        <div class="font-semibold text-blue-500 text-3xl pl-40 pb-8">
+                            <p>479</p>
+                            <p class="text-gray-700">Hotels</p>
+                        </div>
+                        <div class="font-semibold text-blue-500 text-3xl">
+                            <p>2093</p>
+                            <p class="text-gray-700">Rooms</p>
+                        </div>
+                        <div class="font-semibold text-blue-500 text-3xl pl-48">
+                            <p>1920</p>
+                            <p class="text-gray-700">Workers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <p class="text-5xl font-extrabold pl-16 pb-12">Popular Posts</p>
+        <div class="max-w-full flex justify-between flex-wrap max-w-4xl pl-16 pb-20">
+           <div class="max-w-sm mr-6">
+               <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="img" class="w-full h-64 bg-cover bg-center rounded">
+               <p class="text-xl hover:text-blue-500 font-bold tracking-tight cursor-pointer pt-4">Tips on how to travel safely in foreign countries</p>
+               <p class="text-md text-gray-700 font-semibold leading-loose text-left pt-4 pb-6">Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.</p>
+               <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="img" class="rounded-full w-12 h-12">
+                   <span class="pl-4">
+                       <p class="text-xl font-bold">Charlotte Delos</p>
+                       <p class="text-md text-gray-700">Travel Advocate</p>
+                   </span>
+               </div>
+           </div>
+
+           <div class="max-w-sm mr-6">
+            <img src="https://images.unsplash.com/photo-1563784462041-5f97ac9523dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="img" class="w-full h-64 bg-cover bg-center rounded">
+            <p class="text-xl hover:text-blue-500 font-bold tracking-tight cursor-pointer pt-4">Enjoying the beach life while on a vacation in the best place</p>
+            <p class="text-md text-gray-700 font-semibold leading-loose text-left pt-4 pb-6">Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.</p>
+            <div class="flex items-center">
+             <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80" alt="img" class="rounded-full w-12 h-12">
+                <span class="pl-4">
+                    <p class="text-xl font-bold">Adam Cuppy</p>
+                    <p class="text-md text-gray-700">Vlogger</p>
+                </span>
+            </div>
+        </div>
+        
+        <div class="max-w-md mr-2">
+          <div class="max-w-sm pb-6 flex">
+              <span>
+                  <p class="text-lg font-bold text-gray-700 hover:text-blue-500 cursor-pointer max-w-xs">Getting the most out of your vacation</p>
+                  <p class="text-md text-gray-600 pt-2">Aaron Patterson</p>
+              </span>
+            <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="img" class="w-24 h-20 rounded flex-shrink-0">
+          </div>
+          <div class="max-w-sm pb-6 flex">
+              <span>
+                  <p class="text-lg font-bold text-gray-700 hover:text-blue-500 cursor-pointer max-w-xs">Choosing the perfect Safaris in Africa</p>
+                  <p class="text-md text-gray-600 pt-2">Sam Phipphen</p>
+              </span>
+            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="img" class="w-24 h-20 rounded flex-shrink-0">
+          </div>
+          <div class="max-w-sm pb-6 flex">
+              <span>
+                  <p class="text-lg font-bold text-gray-700 hover:text-blue-500 cursor-pointer max-w-xs">Hiking during the monsoon in Asia</p>
+                  <p class="text-md text-gray-600 pt-2">Tony Hawk</p>
+              </span>
+              <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="img" class="w-24 h-20 rounded flex-shrink-0">
+          </div>
+          <div class="max-w-sm pb-6 flex">
+              <span>
+                  <p class="text-lg font-bold text-gray-700 hover:text-blue-500 cursor-pointer max-w-xs">An extremely funny trip to the Swiss Alps</p>
+                  <p class="text-md text-gray-600 pt-2">Himali Turn</p>
+              </span>
+            <img src="https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="img" class="w-24 h-20 rounded flex-shrink-0">
+          </div>
+          <div class="max-w-sm pb-6 flex">
+              <span>
+                  <p class="text-lg font-bold text-gray-700 hover:text-blue-500 cursor-pointer max-w-xs">An extremely funny trip to the Swiss Alps</p>
+                  <p class="text-md text-gray-600 pt-2">Naomi Watts</p>
+              </span>
+            <img src="https://images.unsplash.com/photo-1546971587-02375cbbdade?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80" alt="img" class="w-24 h-20 rounded flex-shrink-0">
+          </div>
+        </div>
+        </div> 
+    </section>
+
+    <section>
+        <div class="flex justify-between pb-16">
+        <div class="pl-16 max-w-3xl">
+            <div class="pb-16">
+                <p class="text-5xl font-extrabold">Testimonials</p>
+                <p class="text-xl font-semibold text-gray-700 pt-4">Here are what some of our amazing customers are saying about our hotels & tours. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="text-2xl text-gray-700">
+               "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+            </div>
+            
+            <div class="flex items-center pt-12">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="img" class="rounded-full w-24 h-24">
+                <span class="pl-4">
+                    <p class="text-3xl text-blue-500 font-bold">Charlotte Delos</p>
+                    <p class="text-lg text-gray-700">CEO, Delos Inc.</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="pr-8">
+            <img src="https://images.unsplash.com/photo-1562847246-a375b01505ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="img" style="height: 550px; width: 500px;" class="rounded">
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="flex justify-between max-w-full py-24">
+            <div class="w-1/2 pl-12">
+                <img src="https://images.unsplash.com/photo-1579427421635-a0015b804b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80" alt="img" style="width: 550px; height: 600px;" class="rounded">
+            </div>
+            <div class="w-1/2">
+                <p class="text-5xl font-bold pb-4">Questions</p>
+                <p class="text-xl text-gray-600 font-semibold">Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.</p>
+                <div class="text-xl text-gray-900 font-bold pt-16">
+                    <p class="pb-8">Is lunch provided free of cost ?</p>
+                    <p class="pb-8">Do you have 2 Bedroom suites ?</p>
+                    <p class="pb-8">Are Wi-Fi costs included in the price ?</p>
+                    <p class="pb-8">Where can I reach you for support ?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="w-full h-64 flex items-center justify-center" style="background-color: rgb(25, 43, 69);">
+            <div class="flex">
+                <img src="assets/email.svg" alt="email">
+                <span class="pl-6">
+                    <p class="text-5xl text-white font-bold leading-none">Newsletter</p>
+                    <p class="text-md text-gray-500">Subscribe now to get our latest blog posts.</p>
+                </span>
+            </div>
+            <div class="pl-12 flex items-center">
+                <input type="text" class="bg-gray-600 bg-opacity-25 text-white font-bold h-12 w-64 p-4 rounded" placeholder="Your Email Address">
+                <button class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-r-lg">Subscribe Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="w-full flex flex-col justify-center items-center" style="background-color: rgb(26, 32, 44); height: 500px;">
+            <div class="flex items-center">
+                <img src="assets/resort-last.svg" alt="logo" class="text-white">
+                <a href="#" class="pl-4 font-bold text-2xl text-white">Hotels</a>
+            </div>
+            <div class="pt-12">
+                <nav class="text-lg text-white font-semibold flex space-x-12">
+                    <a href="#" class="border-b-2 border-transparent transition duration-500 ease-in-out hover:border-white">Home</a>
+                    <a href="#" class="border-b-2 border-transparent transition duration-500 ease-in-out hover:border-white">About</a>
+                    <a href="#" class="border-b-2 border-transparent transition duration-500 ease-in-out hover:border-white">Contact Us</a>
+                    <a href="#" class="border-b-2 border-transparent transition duration-500 ease-in-out hover:border-white">Blog</a>
+                    <a href="#" class="border-b-2 border-transparent transition duration-500 ease-in-out hover:border-white">Reviews</a>
+                </nav>
+            </div>
+            <div class="flex pt-12">
+                <img src="assets/facebook.svg" alt="fb" class="pr-6">
+                <img src="assets/twitter.svg" alt="tw" class="pr-6">
+                <img src="assets/youtube.svg" alt="yt">
+            </div>
+            <div class="pt-12 ">
+                <p class="text-md text-gray-500 font-bold">© Copyright 2020, Treact Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
